@@ -9,8 +9,8 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand fw-bolder" to="#">
-                        <img className="w-25 me-1 ms-3" src={logoNav} alt="" />
-                        Quiz<span className='text-success'>ify</span></Link>
+                        <img className="w-25 me-1 ms-lg-3" src={logoNav} alt="" />
+                        Quiz<span className='text-success'>.ify</span></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

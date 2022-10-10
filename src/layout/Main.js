@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 
 const Main = () => {
     return (
-        <div className='.bg-darkNavy '>
+        <div className='bg-darkNavy'>
             <Navbar></Navbar>
         </div>
     );
