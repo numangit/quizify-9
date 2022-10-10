@@ -10,12 +10,12 @@ const Blog = () => {
             </div>
             <div className="my-lg-3 my-1 mx-auto mx-md-5">
                 <h4 className="bg-light-navy p-2 rounded-3 mx-5">How does Context API work ?</h4>
-                <p className="bg-dark text-start p-3 rounded-3 mx-5">Context provides a way to pass data through the component tree without having to pass props down manually at every level. React.createContext() is all you need. It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state.</p>
+                <p className="bg-dark p-3 rounded-3 mx-5">Context provides a way to pass data through the component tree without having to pass props down manually at every level. React.createContext() is all you need. It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state.</p>
             </div>
 
             <div className="my-lg-3 my-1 mx-auto mx-md-5">
                 <h4 className="bg-light-navy p-2 rounded-3 mx-5">What is useRef used for ?</h4>
-                <p className="bg-dark text-start p-3 rounded-3 mx-5">It is similar to useState. useState returns 2 properties or an array. One is the value or state and the other is the function to update the state. In contrast, useRef returns only one value which is the actual data stored. When the reference value is changed, it is updated without the need to refresh or re-render.</p>
+                <p className="bg-dark p-3 rounded-3 mx-5">It is similar to useState. useState returns 2 properties or an array. One is the value or state and the other is the function to update the state. In contrast, useRef returns only one value which is the actual data stored. When the reference value is changed, it is updated without the need to refresh or re-render.</p>
             </div>
         </div>
     );
