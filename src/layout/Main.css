@@ -1,8 +1,16 @@
-.bg-darkNavy {
+.full-height {
+    height: 100vh;
+}
+
+.bg-navy {
     background-color: #05142c;
     color: #EEEEEE;
 }
 
-.bg-lightNavy {
+.bg-light-navy {
     background-color: #02354e;
+}
+
+.text-green {
+    color: #27ae60
 }
