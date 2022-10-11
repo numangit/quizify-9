@@ -6,7 +6,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Quiz = (props) => {
-    console.log(props.props);
     const { question, id, correctAnswer, options } = props.props;
     const notify = () => toast.info("Answer : " + correctAnswer, { position: "top-center", theme: "dark" });
 
@@ -22,7 +21,7 @@ const Quiz = (props) => {
     };
 
     return (
-        <div className='py- py-md-3 my-2 my-md-3 col-10 col-md-8 col-lg-7 mx-auto'>
+        <div className='py-2 py-md-3 my-3 my-md-3 col-10 col-md-8 col-lg-7 mx-auto'>
 
             <div className="d-flex justify-space-between mx-auto bg-quiz p-2 rounded col-12">
                 <p className="py-0 my-0 fs-5 fw-semibold m-1">{question}</p>

@@ -7,7 +7,6 @@ export const TopicsContext = createContext([]);
 
 const Main = () => {
     const topics = useLoaderData();
-    // console.log(topics.data)
     return (
         <TopicsContext.Provider value={topics}>
             <div className='bg-navy'>

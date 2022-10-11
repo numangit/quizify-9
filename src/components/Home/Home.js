@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container';
 
 const Home = () => {
     const topics = useContext(TopicsContext);
-    // console.log(topics);
     return (
         <div className='pb-sm-5 py-5 mt-5 mt-md-0'>
             <Header></Header>
