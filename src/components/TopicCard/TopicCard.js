@@ -14,7 +14,7 @@ const TopicCard = ({ topic }) => {
                 <p className="fs-3 my-1 py-0 fw-bold">{name}</p>
                 <p className="d-none d-sm-block my-1 py-0">Practice and test your {name} by answering our quiz. The more you practice the better you get! </p>
                 <p className=" my-2 py-0 " ><small><span className="fw-semibold">Total Quiz : </span>{total}</small></p>
-                <Link className="my-2 py-0" to={`quiz/${id}`} ><button className="btn btn-outline-dark btn-sm rounded-pill fw-bolder">Get Started  <FontAwesomeIcon icon={faArrowRight} /> </button></Link>
+                <Link className="my-2 py-0" to={window.location == 'http://localhost:3000' ? `quiz/${id}` : `../quiz/${id}`} ><button className="btn btn-outline-dark btn-sm rounded-pill fw-bolder">Get Started  <FontAwesomeIcon icon={faArrowRight} /> </button></Link>
             </div>
         </div>
     );
