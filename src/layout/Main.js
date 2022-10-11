@@ -1,6 +1,6 @@
 import React, { createContext, useContext } from 'react';
 import { Outlet, useLoaderData } from 'react-router-dom';
-import Navbar from '../components/Navbar/Navbar';
+import Navigate from '../components/Navigate/Navigate';
 import './Main.css';
 
 export const TopicsContext = createContext([]);
@@ -11,7 +11,7 @@ const Main = () => {
     return (
         <TopicsContext.Provider value={topics}>
             <div className='bg-navy'>
-                <Navbar></Navbar>
+                <Navigate></Navigate>
                 <Outlet></Outlet>
             </div>
         </TopicsContext.Provider>

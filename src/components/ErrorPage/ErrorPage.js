@@ -14,7 +14,7 @@ const ErrorPage = () => {
                     <p className='display-3'>{error.statusText}</p> */}
                     <div className='w-50 mx-auto  my-5 my-lg-0 py-5 py-lg-0'><Lottie animationData={notfound} loop={true} /></div>
                     <div className='w-75 mx-auto my-5 my-lg-0 py-5 pt-lg-3 pb-lg-5'>
-                        <p className='fs-4'>Oops! Looks like you're lost in a world of error. <br /> Please return back to reality by clicking the button bellow.</p>
+                        <p className='fs-4'>Oops! Looks like you're lost in a world of error. <br /> Please return back to reality by clicking the button below.</p>
                         <Link to="/"><button type="button" class="btn btn-outline-warning btn-lg ">Return Home</button></Link>
                     </div>
                 </div>
