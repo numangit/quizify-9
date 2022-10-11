@@ -5,6 +5,8 @@ import './Navigate.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFeatherPointed } from '@fortawesome/free-solid-svg-icons';
 
 const Navigate = () => {
     return (
@@ -12,8 +14,7 @@ const Navigate = () => {
             <Navbar className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" bg="dark" expand="lg">
                 <Container>
                     <Link className="navbar-brand " to="/">
-                        <img className="w-25 me-1 ms-lg-3" src={logoNav} alt="" />
-                        <span className='fw-bolder fs-4'> Quiz<span className='text-success'>.ify</span></span></Link>
+                        <span className='fw-bolder fs-4'> Quiz<span className='text-success'>ify..</span><FontAwesomeIcon icon={faFeatherPointed} /></span></Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto me-1">
