@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 import TopicCard from '../TopicCard/TopicCard';
 import Container from 'react-bootstrap/Container';
 
-
 const Home = () => {
     const topics = useContext(TopicsContext);
     // console.log(topics);
