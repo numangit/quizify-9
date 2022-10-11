@@ -16,18 +16,18 @@ const Navigate = () => {
                         <span className='fw-bolder fs-4'> Quiz<span className='text-success'>.ify</span></span></Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto me-5">
+                        <Nav className="ms-auto me-1">
                             <ul className="navbar-nav">
-                                <li className="nav-item text-center">
+                                <li className="nav-item text-center mx-lg-2">
                                     <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} aria-current="page" to="home">Home</NavLink>
                                 </li>
-                                <li className="nav-item text-center">
+                                <li className="nav-item text-center mx-lg-2">
                                     <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} aria-current="page" to="/topic">Topic</NavLink>
                                 </li>
-                                <li className="nav-item text-center">
+                                <li className="nav-item text-center mx-lg-2">
                                     <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} to="/statistics">statistics</NavLink>
                                 </li>
-                                <li className="nav-item text-center">
+                                <li className="nav-item text-center mx-lg-2">
                                     <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} to="/blog">Blogs</NavLink>
                                 </li>
                             </ul>
