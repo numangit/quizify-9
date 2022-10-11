@@ -10,10 +10,10 @@ const Statistics = () => {
     return (
         <div className='mt-5 py-5'>
             <h2 className="my-0 py-0 fw-bold display-5">Our quiz <span className="text-green">Statistics</span></h2>
-            <p className='fs-4 mt-3 mt-md-1 p-2 p-md-5'>Best Resources to learn Statistics. Statistics is the study of the collection, analysis, interpretation, presentation, and organisation of data. Here are stats about our provided topics.</p>
+            <p className='fs-4 mt-3 mt-md-1 p-2 p-md-5'>Best Resources to learn Statistics. Statistics is the study of the collection, analysis, interpretation, presentation, and organisation of data. Here are some stats about our provided topics.</p>
 
-            <div className="d-block d-lg-flex">
-                <div className="bg-white rounded col-lg-4 mx-auto p-3 ">
+            <div className="d-block d-lg-flex m-3 m-md-3">
+                <div className="bg-white rounded col-lg-4 mx-auto p-md-3 ">
                     <BarChart width={350} height={250} data={allQuiz}>
                         <XAxis dataKey="name" />
                         <YAxis />
@@ -22,7 +22,7 @@ const Statistics = () => {
                         <Bar dataKey="total" fill="#8884d8" />
                     </BarChart>
                 </div>
-                <div className="bg-white rounded col-lg-4 mx-auto p-3">
+                <div className="mt-3 mt-lg-0 bg-white rounded col-lg-4 mx-auto p-md-3">
                     <AreaChart width={350} height={250} data={allQuiz}
                         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                         <defs>

@@ -5,7 +5,7 @@ import faq from "../../assets/faq.json";
 
 const Blog = () => {
     return (
-        <div className="my-5 my-lg-0 pb-sm-5 py-5 mt-5 mt-md-0">
+        <div className="my-lg-0 pb-sm-5 py-5 mt-5 mt-md-0">
             <div className='my-4 py-3 my-md-0 py-md-0 w-25 my-md-4 mx-auto'><Lottie animationData={faq} loop={true} /></div>
             <div>
                 <h2 className="my-5 mb-2 my-lg-5 fw-bold display-5 ">Frequently Asked Questions</h2>
