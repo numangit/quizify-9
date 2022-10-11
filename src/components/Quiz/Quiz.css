@@ -8,7 +8,7 @@
 }
 
 .btn-answer:hover {
-    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 84, 166, 1) 0%, rgba(132, 189, 201, 1) 90%);
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(234, 249, 249, 0.67) 0.1%, rgba(239, 249, 251, 0.63) 90.1%);
     font-weight: 900;
     color: black;
 }
