@@ -3,7 +3,7 @@
 A simple React Quiz app built with React & React Router Dom.
 
 ## Live Link
-Hosted on Netlify -> [Quizify](https://proreader.netlify.app/)
+Hosted on Netlify -> [Quizify](https://fancy-donut-4a4ca6.netlify.app)
 
 ## Project description
 
