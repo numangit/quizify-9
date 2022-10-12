@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Quiz = ({ props, notifyResult }) => {
 
     const { question, id, correctAnswer, options } = props;
-    const notify = () => toast.info("Answer : " + correctAnswer, { position: "top-center", theme: "dark" });
+    const notify = () => toast.info("Answer : " + correctAnswer, { position: "top-left", theme: "dark" });
 
     return (
         <div className='py-2 py-md-3 my-3 my-md-3 col-10 col-md-8 col-lg-7 mx-auto'>

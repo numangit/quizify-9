@@ -23,7 +23,7 @@ const Navigate = () => {
                                     <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} aria-current="page" to="home">Home</NavLink>
                                 </li>
                                 <li className="nav-item text-center mx-lg-2">
-                                    <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} aria-current="page" to="/topic">Topic</NavLink>
+                                    <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} aria-current="page" to="/topic">Topics</NavLink>
                                 </li>
                                 <li className="nav-item text-center mx-lg-2">
                                     <NavLink className={({ isActive }) => isActive ? 'active-nav nav-link fw-semibold' : 'nav-link'} to="/statistics">statistics</NavLink>

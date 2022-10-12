@@ -14,12 +14,12 @@ const QuizRoute = () => {
             const newCorrectValue = correctAnswersSelected + 1;
             setCorrectAnswersSelected(newCorrectValue);
             return toast.success('Good job, thats a correct answer!',
-                { position: "top-center", theme: "dark" })
+                { position: "top-left", theme: "dark" })
         } else {
             const newWrongValue = wrongAnswersSelected + 1;
             setWrongAnswersSelected(newWrongValue);
             return toast.error(`Oops! wrong answer. Correct answer is ${correctAns} `,
-                { position: "top-center", theme: "dark" })
+                { position: "top-left", theme: "dark" })
         }
     };
 
@@ -30,11 +30,11 @@ const QuizRoute = () => {
             <div className="">
                 <div className="d-flex justify-content-evenly rounded-4 my-2 p-3 col-10 col-md-8 col-lg-7 mx-auto">
                     <div className="bg-dark p-1 p-lg-3 col-5 col-md-5 rounded ">
-                        <p className="m-0 p-0 fs-1 fw-bold text-success" >{correctAnswersSelected}</p>
+                        <p className="m-0 p-0 display-5 fw-bold text-success" >{correctAnswersSelected}</p>
                         <p className=" m-0 p-0"><small>Correct Answers</small></p>
                     </div>
                     <div className="bg-dark p-1 p-md-3 col-5 col-md-5 rounded ">
-                        <p className="m-0 p-0 fs-1 fw-bold text-danger" >{wrongAnswersSelected}</p>
+                        <p className="m-0 p-0 display-5 fw-bold text-danger" >{wrongAnswersSelected}</p>
                         <p className=" m-0 p-0"><small>Wrong Answers</small></p>
                     </div>
                 </div>
