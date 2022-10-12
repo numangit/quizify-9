@@ -14,7 +14,7 @@ const Quiz = ({ props, notifyResult }) => {
         <div className='py-2 py-md-3 my-3 my-md-3 col-10 col-md-8 col-lg-7 mx-auto'>
 
             <div className="d-flex justify-space-between mx-auto bg-quiz p-2 rounded col-12">
-                <p className="py-0 my-0 fs-5 fw-semibold m-1">{question}</p>
+                <p className="py-0 my-0 fs-5 fw-semibold m-1">{question.slice(3, -4)}</p>
                 <p onClick={notify} className="py-0 my-0 ms-auto text-end eye-icon"><small><FontAwesomeIcon icon={faEye} /></small></p>
                 <ToastContainer />
             </div>
