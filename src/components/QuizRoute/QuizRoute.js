@@ -12,7 +12,6 @@ const QuizRoute = () => {
             {
                 quizs.data.questions.map(quiz => <Quiz key={quiz.id} props={quiz} ></Quiz>)
             }
-
         </div>
     );
 };
